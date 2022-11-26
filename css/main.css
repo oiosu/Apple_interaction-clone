@@ -1,0 +1,36 @@
+@charset 'utf-8';
+
+
+html {
+    /* 공통으로 사용할 글씨체와 글씨크기 */
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 14px;
+}
+body {
+    /* 가로 스크롤이 안 생기도록! */
+	overflow-x: hidden;
+    /* 폰트 색깔 */
+	color: rgb(29, 29, 31);
+    /* 자간 */
+	letter-spacing: -0.05em;
+    /* 배경색깔 */
+	background: white;
+}
+p {
+    /* 행간 */
+	line-height: 1.6;
+}
+
+.global-nav {
+    height: 44px;
+}
+
+.global-nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
